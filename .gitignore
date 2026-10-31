@@ -1,0 +1,30 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+
+# Database and AI data
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+backend/data/
+
+# Logs and IDE
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
